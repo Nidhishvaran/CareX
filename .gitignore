@@ -1,0 +1,6 @@
+dist/
+data/mediguard.json
+data/uploads/
+__pycache__/
+*.py[cod]
+.venv/

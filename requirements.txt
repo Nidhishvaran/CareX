@@ -1,0 +1,2 @@
+networkx>=3.4,<4
+opencv-python-headless>=4.10,<5

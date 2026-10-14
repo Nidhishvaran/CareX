@@ -1,0 +1,13 @@
+{
+  "name": "mediguard-ai-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack MediGuard AI local demo with SQLite 3 relational database, real PDF prescription extraction, and NetworkX topological knowledge graph",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "python scripts/sqlite_db.py --sync && node scripts/build.mjs && node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "db:sync": "python scripts/sqlite_db.py --sync",
+    "start:dist": "node scripts/build.mjs && node scripts/serve.mjs --dist"
+  }
+}
