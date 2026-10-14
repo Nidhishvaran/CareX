@@ -50,7 +50,7 @@ All names, profiles, IDs, and patient-reported allergies are fictional demo reco
 
 Build the static frontend with `node scripts/build.mjs`. After building, use `node scripts/serve.mjs --dist` to serve the built frontend together with the API.
 
-## Backend features
+## Backend Features
 
 - Local demo code requests and sessions, patient registration, and logout.
 - Patient lookup and profile editing; doctor profile editing.
