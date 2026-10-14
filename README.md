@@ -2,7 +2,7 @@
 
 Responsive full-stack MediGuard AI demo. The frontend is plain HTML, CSS, and JavaScript. The local API uses Node.js built-in modules and stores demo profiles in `data/mediguard.json`; uploaded files go to `data/uploads/`.
 
-## Run locally (One Command in VS Code)
+## Run locally (One Command in VS Code).
 
 You can launch the full project in **one command** using any of these methods:
 
